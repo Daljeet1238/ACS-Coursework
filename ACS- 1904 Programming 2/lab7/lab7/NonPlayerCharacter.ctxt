@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=NonPlayerCharacter
+comment0.text=\r\n\r\n\ Daljeet\ Singh\ 3169763\r\n\ 25th\ October,\ 2024\r\n
+comment1.params=health\ xLocation\ yLocation\ difficulty\ dialogue\ characterName
+comment1.target=NonPlayerCharacter(int,\ int,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDifficulty()
+comment3.params=difficulty
+comment3.target=void\ setDifficulty(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getDialogue()
+comment5.params=dialogue
+comment5.target=void\ setDialogue(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

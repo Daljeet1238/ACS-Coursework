@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CharacterFrequency
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=c\ charList\ frequencyList
+comment2.target=void\ countFrequency(char,\ java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=f\ letters\ lettersFrequency\ numbers\ numbersFrequency\ specialChar\ specialCharFrequency
+comment3.target=void\ countFrequencies(java.util.Scanner,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment4.params=charList\ frequencyList
+comment4.target=char\ highestFrequencyItem(java.util.ArrayList,\ java.util.ArrayList)
+comment5.params=letters\ lettersFrequency\ numbers\ numbersFrequency\ specialChar\ specialCharFrequency
+comment5.target=void\ printHighestFrequency(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+numComments=6

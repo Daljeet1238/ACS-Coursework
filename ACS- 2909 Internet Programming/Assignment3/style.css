@@ -1,0 +1,53 @@
+
+#button_container{    
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#target_p {
+    border: 3px solid #ff2800;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #a3a3aa;
+
+
+}
+div{
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+div a:hover{
+    text-decoration: underline;
+}
+
+/* Toggle buttons classes*/
+.bold {
+    font-weight: bold;
+}
+
+.width{
+    width: 50%;
+}
+
+.ferrari-red{
+    color: #ff2800;
+}
+
+#target_p.double-font{
+    font-size: 24px;
+}

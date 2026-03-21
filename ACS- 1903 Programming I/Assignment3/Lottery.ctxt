@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lottery
+comment1.params=
+comment1.target=Lottery()
+comment2.params=date
+comment2.target=Lottery(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getDate()
+comment4.params=date
+comment4.target=void\ setDate(java.lang.String)
+comment5.params=
+comment5.target=Lottery\ getLotteryTicket()
+comment6.params=lotteryTicket
+comment6.target=void\ setLotteryticket(Lottery)
+numComments=7

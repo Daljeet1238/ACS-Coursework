@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=RandomUtils
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ lab05\ here.\r\n\r\n\ Daljeet\ Singh\r\n\ 6th\ October,\ 2024\r\n
+comment1.params=
+comment1.target=RandomUtils()
+comment2.params=
+comment2.target=int\ generateInt()
+comment3.params=
+comment3.target=double\ nextDouble()
+comment4.params=minValue\ maxValue
+comment4.target=double\ nextDouble(int,\ int)
+comment5.params=size
+comment5.target=double[]\ generateVector(int)
+comment6.params=size\ minValue\ maxValue
+comment6.target=double[]\ generateVector(int,\ double,\ double)
+comment7.params=length\ width
+comment7.target=double[][]\ generateMatrix(int,\ int)
+comment8.params=length\ width\ min\ max
+comment8.target=double[][]\ generateMatrix(int,\ int,\ int,\ int)
+numComments=9

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Lab03
+comment0.text=\r\n\ This\ class\ will\ read\ in\ text\ files\ and\ compare\r\n\ the\ texts\ within\ them\r\n\r\n\ Daljeet\ Singh\ 3169763\r\n\ 23-Sept-2024\r\n
+comment1.params=fileName
+comment1.target=java.lang.String\ readFile(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

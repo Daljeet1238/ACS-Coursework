@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Jar
+comment0.text=\ \n\ ACS-1903\ Lab\ 12\ Q7\n\ Daljeet\ Singh\ 3169763\n
+comment1.params=name
+comment1.target=Jar(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=java.util.ArrayList\ getCookie()
+comment5.params=cookies
+comment5.target=void\ setCookie(java.util.ArrayList)
+comment6.params=cookies
+comment6.target=void\ addCookie(Cookie)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

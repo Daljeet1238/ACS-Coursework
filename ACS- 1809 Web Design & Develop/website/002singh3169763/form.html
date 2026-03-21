@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Sign Up Form</title>
+    <link rel="icon" href="v.jpg">
+</head>
+<body>
+    <div class="signup-form">
+        <h2>Sign Up</h2>
+        <form action="home.html" method="post">
+            <table>
+                <tr>
+                    <td><label for="firstname">First Name:</label></td>
+                    <td><input type="text" id="firstname" name="firstname" required></td>
+                    <td><label for="lastname">Last Name:</label></td>
+                    <td><input type="text" id="lastname" name="lastname" required></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Re-type:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+                <tr>
+                    <td rowspan="4" >Address:</td><td>Street address:</td><td colspan="2"><input type="text" name="address" required></td>
+                </tr>
+                <tr>
+                    <td>Postal Code:</td><td colspan="2"> <input type="text" name="pc" required></td>
+                </tr>
+                <tr>
+                    <td>City:</td><td colspan="2"><input type="text" name="City"></td>
+                </tr>
+                <tr>
+                    <td>Province:</td><td colspan="2">
+                        <select>
+                            <option value="nova scotia">Nova Scotia</option>
+                            <option value="Quebec">Quebec</option>
+                            <option value="Ontario">Ontario</option>
+                            <option value="Manitoba">Manitoba</option>
+                            <option value="Saskatchewan">Saskatchewan</option>
+                        </select></td>
+                </tr>   
+            </table>
+            <div class="button2">
+                <div class="button">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <div class="button">
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

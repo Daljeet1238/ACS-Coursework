@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Polygon
+comment1.params=points
+comment1.target=Polygon(double[][])
+comment2.params=points
+comment2.target=boolean\ checkDimensions(double[][])
+comment3.params=p
+comment3.target=void\ append(Polygon)
+comment4.params=
+comment4.target=double[][]\ getPoints()
+comment5.params=points
+comment5.target=void\ setPoints(double[][])
+comment6.params=
+comment6.target=double\ calculateLength()
+comment7.params=p1\ p2
+comment7.target=double\ calculateDistance(double[],\ double[])
+comment8.params=
+comment8.target=double[][]\ calculateBoundingBox()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

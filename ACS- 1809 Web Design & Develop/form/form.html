@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg">
+    <title>Personal Website</title>
+</head>
+<body>
+    <header class="relative">
+        <div class="absolute">Personal Website</div>
+    </header>
+    <div>    
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="local.html">LOCAL</a></li>
+                <li><a href="form.html">FORM</a></li>
+            </ul>    
+        </nav>
+        <div class="formmain">
+            <form>
+                Registration Form
+                <hr>
+                <table class="right">
+                    <tr><td>First name:</td><td><input type="text" name="firstname"></td><td>&nbsp;</td></tr>
+                    <tr><td>Last name:</td><td><input type="text" name="lastname"></td><td>&nbsp;</td></tr>
+                    <tr><td rowspan="3">Address</td><td>Street Address:</td><td><input type="text" name="street"></td></tr>
+                    <tr><td>City:</td><td><input type="text" name="city"></td></tr>
+                    <tr><td>Postal Code:</td><td><input type="text" name="postal"></td></tr>
+                    <tr><td>User Name:</td><td><input type="text" name="username"></td><td>&nbsp;</td></tr>
+                    <tr><td>Password:</td><td><input type="password" name="pwd"></td><td>&nbsp;</td></tr>
+                    <tr><td>Email Address:</td><td><input type="text" name="email"></td><td>&nbsp;</td></tr>
+                    <tr><td>Phone Number:</td><td><input type="text" name="phone"></td><td>&nbsp;</td></tr>
+                </table>
+                <hr>    
+                <table class="left">
+                    <tr><th colspan="3">How would you be like to contact?</th></tr>
+                    <tr><td>&nbsp;</td><td><input type="radio" name="contact" value="textMessage">Text Message</td><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td><td><input type="radio" name="contact" value="email">Email</td><td>&nbsp;</td></tr>
+                </table>
+                <hr>
+                <table class="left">
+                    <tr><th colspan="3">Which course(s) are you registering</th></tr>
+                    <tr><td>&nbsp;</td><td><input type="checkbox" name="contact" value="ACS-1805">ACS-1805</td><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td><td><input type="checkbox" name="contact" value="ACS-1809">ACS-1809</td><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td><td><input type="checkbox" name="contact" value="ACS-1903">ACS-1903</td><td>&nbsp;</td></tr>
+                    <tr><td>&nbsp;</td><td colspan="2"><hr></td></tr>
+                    <tr><td style="text-align: right;">Payment Method:</td>
+                        <td style="text-align: center;" colspan="2">
+                            <select style="width: 100px; background-color:#B3BAC1;">
+                                <option value="mastercard">MasterCard</option>   
+                                <option value="visa">VISA</option>
+                                <option  value="debit">Debit</option>
+                            </select></td></tr>
+                </table>
+                <hr>
+                Special Request<br>
+                <textarea rows="10" cols="55"></textarea>
+                <table class="right">
+                    <tr><td>&nbsp;</td><td colspan="2"><hr></td></tr>
+                    <tr><td>Rate Your Previous Experience(with 10 is the best):</td><td style="text-align: center;" colspan="2">1 <input type="range" min="1" max="10">10</td></tr>
+                </table>
+                <hr>
+                <div class="button">
+                    <button type="button">Submit</button> <button type="button">Reset</button>
+                </div>
+            </form>
+        </div>
+    <div class="extra">
+        <p>EXTRA</p>
+    </div>
+</div>
+<footer>
+    <p>
+        Name: Yadveer Dhillon <br>
+        Student ID: 3646947 <br>
+        Email Address: ofsuhv- dojns@webmail.uwinnipeg.ca<br>
+    </p>
+</footer>
+</body>
+</html>

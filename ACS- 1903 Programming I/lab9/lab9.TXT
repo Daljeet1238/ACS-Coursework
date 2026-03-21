@@ -1,0 +1,42 @@
+5.3 Scanner
+
+Previously we used a Scanner object to obtain data from the user via the standard input
+device, the keyboard. The input is considered to be a sequence of tokens where tokens
+are strings separated by delimiters which by default are whitespace. To Java, whitespace
+includes spaces, tabs, newline, and a few other characters. A Scanner object is said to
+parse the input stream making tokens available.
+
+A programmer can specify exactly what constitutes a token. Consider that a program
+could be reading a file where tokens are separated by commas (e.g. a CSV file that is easily
+generated from Excel). The interested reader is referred to the Java documentation for
+more information on how to specify delimiter patterns. For our purposes we use the
+defaults for a scanner object and so tokens are strings where the strings are delimited
+by whitespace.
+
+In this text we cover three usages for the Scanner class:
+- As discussed earlier for handling input from standard input: System.in.
+- Obtaining tokens from a string.
+- Obtaining tokens from a file.
+
+To use the methods in the Scanner class we must instantiate a Scanner, for example:
+- Scanner s = new Scanner("System.in");
+- Scanner s = new Scanner(s); //s is of type String
+- Scanner s = new Scanner(f); //f is of type File
+
+The Scanner class is in the java.util package and so programs need to include:
+import java.util.Scanner;
+We will illustrate the use of a scanner object for reading a file and another for scanning
+a string.
+
+Declaring a Scanner for a text file
+
+Recall that each class we create in BlueJ is stored as a file with the .java extension, and
+the compilation process creates another file with the .class extension. In a BlueJ project
+there is another file you will have noticed called Readme.txt. The .java files and the .txt
+file are both text files whereas the class file is a binary file. Text files are human-readable 
+but a class file contains Java bytecode and to view and make sense of its contents would
+be quite difficult.
+
+To read a text file we can declare a Scanner object which is associated with that file. Let
+us consider only files that are in our project. When the file is contained in our project we
+only need to name it as a string, as in: Scanner f = new Scanner(new File("Readme.txt"));

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=LotteryTicket
+comment1.params=
+comment1.target=LotteryTicket()
+comment2.params=numbers
+comment2.target=LotteryTicket(java.util.ArrayList)
+comment3.params=
+comment3.target=java.util.ArrayList\ getnumbres()
+comment4.params=numbers
+comment4.target=void\ setArrayList(java.util.ArrayList)
+comment5.params=
+comment5.target=java.util.ArrayList\ getLottery()
+comment6.params=lottery
+comment6.target=void\ setLottery(java.util.ArrayList)
+comment7.params=l
+comment7.target=void\ addLottery(Lottery)
+numComments=8

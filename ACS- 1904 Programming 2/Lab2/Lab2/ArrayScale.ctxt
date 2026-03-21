@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ArrayScale
+comment0.text=\r\n\ Daljeet\ Singh\ 3169763\r\n\ \r\n\ This\ is\ an\ example\ of\ Javadoc\ documentation.\ \r\n\ It\ has\ two\ examples\ of\ methods\ for\ scaling\ a\ numeric\ array.\r\n\ The\ task\ is\ to\:\r\n\ \t\t1.\ Describe\ the\ difference\ between\ the\ scale1\ and\ scale2\ methods\ in\ at\ most\ two\ sentences.\r\n\ \ Ans\:\ scale1\ use\ the\ enhanced\ for\ loop\ on\ the\ other\ hand\ scale2\ use\ the\ simple\ for\ loop\ using\ the\ length\ of\ the\ array.\r\n\ \r\n\ \t\t2.\ Identify\ which\ one\ accurately\ scales\ the\ array\ and\ explain\ why.\r\n\ \ Ans\:\ scale1\ will\ work\ more\ appropriately\ because\ \r\n\ \r\n\ @author\ ACS-2947\ Lab\ 0\r\n\ Adapted\ from\ Michael\ T.\ Goodrich,\ Roberto\ Tamassia,\ Michael\ H.\ Goldwasser\r\n\ \r\n
+comment1.params=data\ factor
+comment1.target=void\ scale1(double[],\ double)
+comment2.params=data\ factor
+comment2.target=void\ scale2(double[],\ double)
+comment3.params=data
+comment3.target=void\ print(double[])
+comment3.text=\r\n\ Print\ method\ that\ uses\ StringBuilder\ to\ display\ every\ element\ of\ an\ array\r\n\ @param\ data\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

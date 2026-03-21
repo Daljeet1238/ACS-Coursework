@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ Daljeet\ Singh\ 3169763\r\n\ 16th\ October,\ 2024\r\n
+comment1.params=title\ author\ publisher\ pageCount\ format\ identificationNUmber\ genre
+comment1.target=Book(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ Format,\ int,\ Genre)
+comment2.params=
+comment2.target=java.lang.String\ getPublisher()
+comment3.params=
+comment3.target=int\ getPageCount()
+comment4.params=
+comment4.target=java.lang.String\ getAuthor()
+comment5.params=
+comment5.target=Format\ format()
+comment6.params=
+comment6.target=java.lang.String\ getDiscription()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

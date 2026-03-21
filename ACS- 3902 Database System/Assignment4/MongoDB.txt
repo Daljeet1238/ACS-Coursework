@@ -1,0 +1,32 @@
+- CREATE DATABASE - use school
+- CREATE COLLECTION- db.createCollection("Student")
+- CLEAR - cls
+- SHOW DATABASE - show dbs
+- DROP DATABASE - db.dropDatabase()
+- INSERT 1 DOCUMENT - db.students.insert({name: " ", age: 30, gpa: 3.2})
+- INSERT MANY DOCUMENT - db.students.insertMany([{name: "", age: , gpa:}, {}, {}])
+- RETURN/FIND DOCUMENT IN COLLECTION - db.students.find()
+- DATA TYPES - ({String
+		inetger
+		double
+		boolean
+		new Date() -- current date and time
+		null
+		array -- ["ds", "sf"]
+		nested document -- {street: "fsvd",
+					city: "fcsdfv",
+					zip: 13454}
+		})
+- SORT DATABASE - db.students.find().sort({name: 1}) -- 1 for alphabetical order , -1 for reverse alphabetical order
+		- db.students.find().sort({gpa: 1})
+- LIMIT METHOD - db.students.find().limit(1) -- return number of documents
+- HIGHEST GPA - db.students.find().sort({gpa: -1}).limit(1)
+
+- FIND METHOD db.students.find({query}, {projection})
+	      db.students.find({name: "Garry"})
+	      db.students.find({gpa:4.0}, fullTime: true)
+	      db.students.find({}, {name: true}) -- return the every document but just their names
+	      db.students.find({}, {_id:false, name:true, gpa:true})
+ 	      
+- UPDATE DOCUMNETS - db.students.updateOne({filter}, {update})
+		     db.students.updateOne({name: Spongebob}, {$set:{fullTime:true}})

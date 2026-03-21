@@ -1,0 +1,5 @@
+01h = wait for the user to type something
+09h = show this message
+02h = show the single character
+4ch = I'm done close the program
+21h = Call DOS to execute the function

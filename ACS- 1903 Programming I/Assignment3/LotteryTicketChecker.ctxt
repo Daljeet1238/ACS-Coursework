@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LotteryTicketChecker
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=winningLotteryNumbers\ userTicket
+comment2.target=int\ checkTicket(java.util.ArrayList,\ java.util.ArrayList)
+comment3.params=matches
+comment3.target=void\ displayResult(int)
+numComments=4

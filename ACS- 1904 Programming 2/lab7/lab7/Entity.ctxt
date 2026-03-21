@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\r\n\r\n\ Daljeet\ Singh\ 3169763\r\n\ 25th\ October,\ 2024\r\n
+comment1.params=health\ xLocation\ yLocation\ characterName
+comment1.target=Entity(int,\ int,\ int,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=x\ y
+comment11.target=void\ move(int,\ int)
+comment2.params=
+comment2.target=int\ getHealth()
+comment3.params=health
+comment3.target=void\ setHealth(int)
+comment4.params=
+comment4.target=int\ getXLocation()
+comment5.params=xLocation
+comment5.target=void\ setXLocation(int)
+comment6.params=
+comment6.target=int\ getYLocation()
+comment7.params=yLocation
+comment7.target=void\ setYLocation(int)
+comment8.params=
+comment8.target=java.lang.String\ getCharacterName()
+comment9.params=characterName
+comment9.target=void\ setCharacterName(java.lang.String)
+numComments=12

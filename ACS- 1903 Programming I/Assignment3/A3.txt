@@ -1,0 +1,171 @@
+6 ArrayLists
+
+There are several techniques for handling collections of data. In this chapter we introduce the ArrayList. An ArrayList can be visualized as a linear list of objects at index positions 0, 1, ....
+
+The ArrayList is a data structure that grows and shrinks gracefully as objects are added and removed. This is a distinct contrast to the array structure covered in Part II of these notes (with an array once you have defined its size the size cannot be changed).
+
+An ArrayList holds a collection of objects whereas arrays can be collections of either a primitive data type or objects. If you wanted to use an ArrayList to hold data of a primitive data type you would need to use a wrapper class (e.g. Integer, Double, Boolean, Character) where wrapper objects contain data of a primitive data type. At this point in your study of Java you have at least used strings that are instances of String (objects of type String), and so our examples will deal with ArrayLists of type String.
+
+We illustrate ArrayLists using these examples:
+
+1. Basic operations on an ArrayList
+2. Preventing duplicate entries in an ArrayList
+3. Creating an ArrayListfrom an array 
+4. A non-typesafe ArrayList.
+
+Below we list some important methods that are defined for ArrayList.
+
+Method		Description plus examples using: ArrayList<String> people = new Arraylist()
+add(...)	Can be used to either
+		a) append a given element to the end of a list, or,
+		b) if a position is specified insert the given elementat the specified position (following elements are shifted down).
+		people.add(”Jaime”); 
+		people.add(4, ”Jaime”) ;
+clear()		Removes all elements from a list. 
+		people.clear();
+contains(...)	Returns true if this list contains the specified element.
+		boolean found = people.add(”Jaime”);
+get(...)	Returns the element at a specified position in this list.
+		String person = people.get(4);
+indexOf(...)	Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
+		int pos = people.indexOf(”Jaime”);
+isEmpty()	Returns true if the list has no elements.
+		boolean empty = people.isEmpty();
+remove(...)	Can be used to remove either
+		a) the element at a specified position in this list, or
+		b) the first element matching a given object;returns the deleted element and shifts other elements up.
+		String removed = people.remove(4);
+		String removed = people.remove(”Jaime”);
+set(...)	Replaces an element with another element; returns the previous element.
+		String previous = people.set(4, ”Jaime”);
+size()		Returns the number of elements in this list.
+		int numElts = people.size();
+
+The enhanced for
+
+There is a variation on the for called the enhanced for that can be used when a program iterates from the first element through to the last element of an ArrayList and does not change any values. Using collection to represent the ArrayList and type to represent the type of elements in the collection, the syntax is
+
+for ( type variable : collection ) statement
+
+A for statement to iterate through an ArrayList names of Strings is:
+
+for (String s : names)
+	System.out.print(s+"");
+
+Examples
+Example 1. Basic Operations
+
+It is considered a good programming practice to specify the data type for the elements of an ArrayList. The way to express this is to declare the type inside a pair of angle brackets: < >. By specifying this a program cannot accidentally add a different type of object to the ArrayList. We say this makes the ArrayList typesafe. In this example we use the basic add() and remove() methods to add 4 elements and remove 1 element, and then we use an enhanced for to display the elements one by one.
+
+
+Listing 6.1 Basic operations on an ArrayList.
+
+1 import java.util.ArrayList;
+2 /**
+3 * Create an ArrayList from an array of strings
+4 */
+5 public class BasicOperationsOnArrayList
+6 {
+7 	public static void main(String[] args){
+8 		// new, empty ArrayList of people
+9 		ArrayList<String> people=new ArrayList();
+10 		// add some names
+11 		people.add("Joe");
+12 		people.add("Jasper");
+13 		people.add("Dick");
+14 		people.add("Abigail");
+15 		// remove a name
+16 		people.remove("Dick");
+17 		// display the names in people
+18 		for (String p: people)
+19 			System.out.print(p+" ");
+20 	}
+21 }
+
+The output, of course, does not include ”Dick”:
+
+	Joe Jasper Abigail
+
+Example 2 (Prevent Duplicates)
+
+The contains() method returns true when a given element exists in an ArrayList. The program below uses contains() and prevents duplicate elements. The user is prompted for names to add to the list - the process stops when the user enters the word stop.
+
+Listing 6.2 Prevent duplicate elements.
+
+1 import java.util.Scanner;
+2 import java.util.ArrayList;
+3 /**
+4 * Prevent duplicate elements in ArrayList
+5 */
+6 public class PreventDuplicatesInArrayList
+7 {
+8 	public static void main(String[] args){
+9 		ArrayList<String> people=new ArrayList();
+10 		// add some names
+11 		Scanner kb = new Scanner(System.in);
+12 		System.out.println("enter names followed"
+13 			+" by the word stop: ");
+14 		String name = kb.next();
+15 		while (!name.equals("stop")) {
+16 			if (!people.contains(name))
+17 				people.add(name);
+18 			name = kb.next();
+19 		}
+20 		// display the names in people
+21 		for (String p: people)
+22 			System.out.print(p+" ");
+23 	}
+24 }
+
+The following shows the prompt to the user, the user’s response:
+
+	Joe Joe Jasper Abigail Abigail Jasper stop
+
+and the output generated:
+
+	enter names followed by the word stop:
+	Joe Jasper Abigail Abigail Jasper stop
+	Joe Jasper Abigail
+
+Example 3 (Legacy Code Issues)
+
+This example is included to show how ArrayLists are specified in some legacy code. When ArrayLists were added to the Java language they were not typesafe - the declaration of an ArrayList did not include a type specification, for example:
+
+ArrayList name = new ArrayList();
+
+This declaration has no angle brackets and so no type specification, and so its possible to add any kind of object to the ArrayList. Currently, the recommended practice is always to include a type in the declaration so the program is more robust - certain errors at runtime cannot occur. This example is included only for demonstration purposes and is not recommended practice. The output follows the code listing.
+
+Listing 6.3 Do not declare an ArrayList this way.
+
+1 import java.util.ArrayList;
+2 import java.util.Scanner;
+3 import java.util.Random;
+4 /**
+5 * Declaring an ArrayList that is not typesafe.
+6 * Not a recommended practice, but something
+7 * you might see in legacy code.
+8 */
+9 public class OldStyleArrayList
+10 {
+11 	public static void main(String[] args){
+12 		// No type specification for people
+13 		// Hence, any old object will do
+14 		ArrayList people=new ArrayList();
+15 		// Add some elements
+16 		people.add("Abigail");
+17 		people.add("Jim");
+18 		// these two adds are for demonstration
+19 		people.add(System.out);
+20 		people.add(new Random());
+21 		// display the people
+22 		for (Object p: people)
+23 			System.out.println(p);
+24 	}
+25 }
+
+The output below shows two String objects, a System.out object, and a Scanner object - all of which were added to the ArrayList.
+
+	Abigail
+	Jim
+	java.io.PrintStream@fceee
+	java.util.Random@105075

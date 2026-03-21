@@ -1,0 +1,29 @@
+*** Content for About HTML Page ***
+
+The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+
+Famous Moments in Web Development History
+
+800AD – Concept of Zero
+1642 – Pascal Adding Machine
+1679 – Binary Number System
+1751 - Electricity
+1833 – Analytical Engine
+1854 – Boolean Algebra
+1948 – Transistor
+1963 - Databases
+1972 – 8-Bit 8008
+1989 – World Wide Web
+1996 – JavaScript and CSS released
+
+Image URL: https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg
+
+====================================
+
+*** Content for About CSS Page ***
+
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+CSS is designed to disable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css files, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page speed between the pages that share the file and its formatting.

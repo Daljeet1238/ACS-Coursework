@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Advantage
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ dice1()
+comment3.params=
+comment3.target=int\ dice2()
+numComments=4

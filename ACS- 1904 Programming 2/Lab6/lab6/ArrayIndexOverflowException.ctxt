@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ArrayIndexOverflowException
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ lab6\ here.\r\n\r\n\ Daljeet\ Singh\ 3169763\r\n\ 14th\ October,\ 2024\r\n
+comment1.params=index\ length
+comment1.target=ArrayIndexOverflowException(int,\ int)
+comment2.params=
+comment2.target=int\ getLength()
+comment3.params=
+comment3.target=int\ getIndex()
+numComments=4

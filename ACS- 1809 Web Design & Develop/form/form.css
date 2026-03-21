@@ -1,0 +1,105 @@
+header.relative{
+    position: relative;
+    width: 100%;
+    height: 150px; 
+    background-color: #283618;
+}
+div.absolute{
+    position: absolute;
+    right: 525px;
+    top: 45px;
+    width: 385px;
+    height: 60px;
+    color: white;
+    border:2px solid white;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+nav{
+    width: 25%;
+    height: 450px;
+    font-size: 30px;
+    line-height: 1.6;
+    background-color: #fefae0;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    line-height: 1.6;
+}
+nav a:hover{
+    text-decoration: overline underline;
+    
+}
+nav ul{
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px;
+}
+.homemain{
+    width: 50%;
+    height: 450px;
+    background-color: #dda15e;
+    float: left;
+}
+.homemain fieldset legend{
+    font-size: 30px;
+}
+.homemain p{
+    font-size: 18px;
+}
+.extra{
+    width: 25%;
+    height: 450px;
+    background-color:#bc6c25;
+    float: left;
+}
+.extra p{
+    text-align: center;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #283618;
+    float: left;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.formmain{
+    text-align: center;
+    border:1px solid black;
+    float: left;
+    width: 49.85%;
+}
+table{
+    width: 100%;
+}
+.table1 input{
+    width: 90%;
+}
+.right td{
+    text-align: right;
+    width: 33%;
+    line-height: 1.5;
+}
+.left td{
+    text-align: left;
+    width: 33%;
+    line-height: 1.5;
+}
+.button{
+    padding: 10px 10px;
+}
+

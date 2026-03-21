@@ -1,0 +1,26 @@
+header {
+	background: #B0B0B0;
+	padding:20px;
+	border-bottom:20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #666666;
+}
+
+#swatches{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.swatch{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin: 20px;
+	color: #FFFFFF;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+

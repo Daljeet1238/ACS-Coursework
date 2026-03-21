@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Fare
+comment0.text=\r\n\ Enumeration\ class\ Fare\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ Daljeet\ Singh\ 3169763\r\n\ 30th\ September,\ 2024\r\n
+comment1.params=rate\ minAge\ maxAge
+comment1.target=Fare(double,\ int,\ int)
+comment2.params=
+comment2.target=double\ getRate()
+comment3.params=rate
+comment3.target=void\ setRate(double)
+comment4.params=
+comment4.target=int\ getMinAge()
+comment5.params=minAge
+comment5.target=void\ setMinAge(int)
+comment6.params=
+comment6.target=int\ getMaxAge()
+comment7.params=maxAge
+comment7.target=void\ setMaxAge(int)
+comment8.params=age
+comment8.target=Fare\ determineFare(int)
+numComments=9

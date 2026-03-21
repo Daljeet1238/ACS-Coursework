@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Movie
+comment0.text=\r\n\ Daljeet\ Singh\ 3169763\r\n\ 16th\ October,\ 2024\r\n
+comment1.params=director\ studio\ runtime\ identificationNUmber\ title\ genre
+comment1.target=Movie(java.lang.String,\ java.lang.String,\ int,\ int,\ java.lang.String,\ Genre)
+comment2.params=
+comment2.target=java.lang.String\ getDirector()
+comment3.params=
+comment3.target=java.lang.String\ getStudio()
+comment4.params=
+comment4.target=int\ getRunTime()
+comment5.params=
+comment5.target=java.lang.String\ getDiscription()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
